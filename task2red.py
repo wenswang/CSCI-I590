@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 import sklearn.cross_validation
 from sklearn.ensemble import RandomForestClassifier
 
-dfr = pd.read_csv('/Users/wensiwang/Desktop/I590/HW/Project/winequality-red.csv', sep=';')
+dfr = pd.read_csv('/Users/wensiwang/Desktop/I590/HW/Project/Code/winequality-red.csv', sep=';')
 
 y = dfr['quality'].values
 x = dfr.drop('quality',1)
